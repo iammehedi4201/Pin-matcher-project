@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body
+{
+	font-family:Sans-Serif, Arial !important;
+	 transition:all 0.5s ease;
+	 -webkit-transition:all 0.5s ease;
+	 -moz-transition:all 0.5s ease;
+	 background-color:#10101B;; 
+
+	 /* background: url(images/bg.png) no-repeat center center scroll;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 min-height: 100%; */
+}
+
+body, html
+{
+	min-height: 100vh;
+}
+a
+{
+	text-decoration:none;
+	display:inline-block;
+}
+
+a:hover
+{
+	text-decoration:underline
+}
+
+/* generate pin css start from here */
+
+.half-width{
+
+    margin-top: 40px; 
+    display: flex;
+    justify-content: center;
+  
+    
+
+}
+
+.inner-half-width{
+    padding: 40px;
+    width: 100%;
+    height: 93vh;
+    text-align: center;
+    background-color: #222436;
+
+
+    
+  
+
+
+}
+.generate-pin{
+
+    margin-top:150px;
+    width: 160px;
+    padding: 45px;
+    border-radius:50%;
+    outline: 2px solid #495BC3;
+    background-color: #495BC3 !important;
+
+}
+
+
+/* button section css start form here */
+
+.button-section{
+
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.inner-button-section{
+  
+  
+   
+}
+
+.button-div{
+
+   
+ 
+}
+
+.inner-button-div{
+     
+    
+     width:100px;
+     height: 80px;
+     padding: 25px;
+     background-color: aquamarine;
+     border-radius: 5px;
+}
+
+
